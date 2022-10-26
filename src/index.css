@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "PP";
+  src: url("./fonts/PureJoy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}

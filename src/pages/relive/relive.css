@@ -1,0 +1,40 @@
+.relive-page {
+    min-height: 100vh;
+}
+
+
+.relive-page .video-container {
+    width: 100%;
+    position: relative;
+}
+
+
+
+.relive-page .video-container .play,
+.relive-page .video-container .play_com
+ {
+    position: absolute;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    z-index: 55;
+}
+
+
+.relive-page .video-container .play img {
+    width: 80px;
+}
+.relive-page .video-container .play_com img {
+    width: 40px;
+}
+
+@media (max-width:600px) {
+    .relive-page .video-container .play img {
+        width: 50px;
+    }
+}
+
+.react-player {
+    border-radius: 20px !important;
+    overflow: hidden !important;
+  }

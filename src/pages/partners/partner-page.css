@@ -1,0 +1,101 @@
+.partner-page {
+    min-height: 100vh;
+}
+
+.partner-page .top-section {
+    position: relative;
+}
+
+.partner-page .top-section .logo {
+    padding: 50px;
+}
+
+@media (max-width:600px) {
+    .partner-page .top-section .logo {
+        padding: 15px;
+    }
+}
+
+.partner-page .top-section .logo img {
+    width: 150px;
+}
+
+
+
+.partner-page .partner {
+    padding: 0px 50px;
+    padding-bottom: 50px;
+}
+
+.partner-page .partner .title {
+    color: #fff;
+}
+
+.partner-page .partner .title h3 {
+    font-size: 4rem;
+}
+
+@media (max-width: 600px) {
+    .partner-page .partner .title h3 {
+
+        font-size: 3rem;
+    }
+}
+
+
+.partner-page .partner .info {
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.partner-page .partner .info .card {
+    min-height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-size: cover !important;
+}
+
+.partner-page .partner .info .card .info-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.partner-page .partner .info .card .info-title h3 {
+    font-size: 2.5rem;
+    font-family: stolzi;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.partner-page .partner .info .card .info-content {
+    color: #fff;
+    text-align: center;
+    padding: 45px;
+}
+
+@media (max-width:600px) {
+    .partner-page .partner .info .card .info-content {
+        padding: 50px 25px !important;
+    }
+
+}
+
+.partner-page .partner .info .card .info-content p {
+    font-family: stolzi-light;
+}
+
+.partner-page .partner .info .card .info-content button {
+    margin-top: 20px;
+}
+

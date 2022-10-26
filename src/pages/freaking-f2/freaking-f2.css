@@ -1,0 +1,104 @@
+.freaking-f2-component {
+    overflow: hidden;
+}
+
+.freaking-f2-component .logo {
+    text-align: center;
+
+}
+
+.freaking-f2-component .logo .logo-content {
+    width: 25%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .freaking-f2-component .logo .logo-content {
+        padding-top: 85px;
+    }
+}
+
+.freaking-f2-component section {
+    padding-bottom: 60px;
+}
+
+.freaking-f2-component section .freak-test {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.freaking-f2-component section .freak-test img {
+    width: 450px;
+    margin: auto;
+}
+
+.freaking-f2-component section .info {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.freaking-f2-component section .info h3 {
+    font-size: 2.5rem;
+
+}
+
+.freaking-f2-component .info {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.freaking-f2-component .info .paragraph {
+    color: white;
+    font-family: stolzi-light;
+    line-height: 1.6;
+}
+
+@media (max-width:600px) {
+    .freaking-f2-component .info {
+        width: 87%;
+    }
+}
+
+.freaking-f2-component .lineup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px;
+    background: url('../../assets/zigzag-01.svg');
+    background-size: cover;
+    padding-bottom: 270px;
+
+}
+
+.freaking-f2-component .lineup .title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 4rem;
+}
+
+@media (max-width:600px) {
+    .freaking-f2-component .lineup .title {
+        font-size: 50px;
+    }
+}
+
+.freaking-f2-component .after-movie .title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    margin: 50px;
+    font-size: 4rem;
+}
+
+.group {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}

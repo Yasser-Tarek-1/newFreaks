@@ -1,0 +1,17 @@
+.about-freaking1-component video {
+    margin: 0 0px;
+}
+
+.about-freaking1-component .slider div {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.about-freaking1-component .title {
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.about-freaking1-component .title h3 {
+    color: #fff;
+}

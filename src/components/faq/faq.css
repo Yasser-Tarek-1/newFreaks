@@ -1,0 +1,51 @@
+.header {}
+
+.faq-component {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.faq-component .title {
+    color: #fff;
+}
+
+.faq-component .title h3 {
+    font-size: 4rem;
+}
+
+.faq-component .accordion {
+    margin-top: 20px;
+}
+
+.faq-component .accordion>div {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: stolzi;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.faq-component .accordion>div .header span {
+    font-size: 20px;
+}
+
+.faq-component .accordion>div .header strong {
+    margin: 0 20px;
+}
+
+@media (max-width: 600px) {
+    .faq-component .accordion>div .header strong {
+        margin: 0 5px;
+    }
+}
+
+.faq-component .accordion .content-faq {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding: 10px 20px;
+    font-family: stolzi-light;
+}

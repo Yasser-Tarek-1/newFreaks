@@ -1,0 +1,172 @@
+{
+  "title": "invite only",
+  "description": {
+    "header": "A boutique invite only festival",
+    "body": "Experience electronic music in ALL its subgenres like never before in Saudi with the freakiest local and international artists",
+    "perks": "2 STAGES - ART EXHIBITION - CAMPING - POP UPS",
+    "aboutDisrupt": "Disrupt is a multi-discipline agency specializing in a wide range of creative and digital services in the entertainment, music, and sports industry in Saudi Arabia and the Middle East. We work with leading international partners to bring the best in entertainment to the country, provide opportunities to local artists and empower talented creatives. As the country changes in line with Vision 2030, our expertise in the arts, music, entertainment, and marketing will propel Saudi Arabia towards its ambitious goals and help shape the future of the country’s creative industries. We explore new ways of doing things, pioneer new sectors, promote new artists, and, together with our clients, change the creative culture across the country.",
+    "reachusbyemail": "Reach us by Email",
+    "followusonintagrame": "Follow us on Instagram",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "submit",
+    "developedBy": "Developed by",
+    "perfectTouch": "Perfect Touch"
+  },
+  "about": {
+    "header": "Freaks of nature is a two-day boutique event like never before. ",
+    "body": " Featuring local and international electronic music artists performing unique sets, visual artists, an entertainment village, pop up stores and food and beverages there is everything you need to get your freak on. ",
+    "getCreative": "Get creative, colorful and freaky. Apply for your tickets now!"
+  },
+  "sidebar": {
+    "header": "ORDER SUMMARY",
+    "enterCouponCode": "Enter coupon code",
+    "clear": "Clear",
+    "remove": "Remove",
+    "apply": "Apply",
+    "total": "Total",
+    "vat": "VAT",
+    "discount": "Discount",
+    "ticketingFees": "Ticketing fees",
+    "totalAmountDue": "Total amount due",
+    "step2": "Step 2: Fill your Details",
+    "step3": " Step 3: Checkout",
+    "checkout": "Proceed to checkout"
+  },
+
+  "steps": {
+    "step1": "Apply here and register your details and the details of who invited you.",
+    "step2": "Completed applications will then be verified and approved.",
+    "step3": "Once approved, you will then receive a secure payment link valid for {{checkout_valid_for}} hours.",
+    "step4": "After you have paid, check your email where you will find your exclusive e-ticket!"
+  },
+  "step3": {
+    "thankYou": "Thank you for your application!",
+    "workingOnIt": "Our team will review your application as soon as possible, if accepted, you will be sent a link to pay securely within {{checkout_valid_for}} hours.",
+    "messageUsOnInstagram": "Want your approval faster? Message us on Instagram @werfreaksofnature and we will see what we can do ;)",
+    "fyi": "*All Tickets are nonrefundable *Name in the ticket must match name in tawaklna * Full Ticket T&C",
+    "here": "here",
+    "letsGetFreaky": "LETS GET FREAKY !"
+  },
+  "step4": {
+    "title": "Excited To see You There, ",
+    "message": "Thank you for buying a ticket. We're excited to see you and hope you have a great time",
+    "email": "An email will be sent shortly with the payment details and your own ticket! on:",
+    "error": {
+      "title": "Looks like something went wrong with your transaction",
+      "message": "Please feel free to contact us on hello@freaksofnature.me describing your issue and we will get back to you as soon as possible."
+    }
+  },
+  "step1": {
+    "title": "STEP 1: SELECT YOUR TICKETS",
+    "earlyBird": {
+      "title": "Early Bird",
+      "openUntil": "Open until October 20",
+      "hasAccessTo": "Full Access to",
+      "perks": "2 stages – Entertainment Zone – Pop up shops - F&B – Art Exhibition",
+      "ticket1": {
+        "title": "1 Day- GA",
+        "day": "Thursday",
+        "price": "550 SAR"
+      },
+      "ticket2": {
+        "title": "1 Day- GA",
+        "day": "Friday",
+        "price": "550 SAR"
+      },
+      "ticket3": {
+        "title": "2 Day- GA",
+        "day": "Weekend",
+        "price": "1000 SAR"
+      },
+      "ticketingFee": "+Ticketing fee"
+    },
+    "regular": {
+      "title": "Regular Tickets",
+      "openUntil": "Closes May 5th",
+      "noTicketingAtTheDoor": "( No Ticketing at the door)",
+      "hasAccessTo": "Full Access to",
+      "perks": "2 stages – Entertainment Zone – Pop up shops - F&B – Art Exhibition",
+      "ticket1": {
+        "title": "1 Day- GA",
+        "day": "Thursday",
+        "price": "700 SAR"
+      },
+      "ticket2": {
+        "title": "1 Day- GA",
+        "day": "Friday",
+        "price": "700 SAR"
+      },
+      "ticket3": {
+        "title": "2 Day- GA",
+        "day": "Weekend",
+        "price": "1200 SAR"
+      },
+      "ticketingFee": "+Ticketing fee"
+    },
+    "ticketingFee": "+Ticketing fee",
+
+    "addOnes": {
+      "title": "Add-Ons",
+      "camping2": {
+        "perks": "Pre-Pitched Tent – Supplied by us - up to 2 People Access to the exclusive “Freakville” camping zone"
+      },
+      "camping4": {
+        "perks": "Pre-Pitched Tent – Supplied by us - up to 4 People Access to the exclusive “Freakville” camping zone"
+      },
+      "parking": {
+        "perks": "PREMIUM PARKING"
+      }
+    }
+  },
+  "step2": {
+    "title": "Step 2: Fill your details",
+    "mainBuyer": {
+      "title": "Main Buyer",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "invitedBy": "Invited By",
+      "instagram": "Instagram",
+      "favoriteDJ": "Favorite DJ",
+      "more": "Requests or special considerations (optional)",
+      "gender": "Choose your gender",
+      "male": "Male",
+      "female": "Female"
+    },
+    "personalization": {
+      "title": "Ticket Personalization",
+      "ticket": "Ticket",
+      "autoFill": "same as main buyer"
+    }
+  },
+  "tc": {
+    "title": "terms and conditions",
+    "close": "close",
+    "l1": "You Unconditionally Understand That All Ticket Sales Are Final. There Will Be No Ticket Refunds And/Or Ticket Exchanges. The Festival Is A Rain Or Shine Festival",
+    "l2": "For Safety Reasons, We Reserve The Right To, Without Any Prior Notice Or Compensation To You: Postpone, Cancel, Interrupt Or Stop The Festival; Provisionally Keep Visitors On The Festival Site At The End Of The Festival; Totally Or Partially Vacate The Festival Site, And Deny Access To The Festival Site Regardless Of The Possession Of A Valid Ticket.",
+    "l3": "We reserve the right to change, modify, or alter any aspect of the Festival (including, without limitation, the appearance of any performer or artist, and/or the order of performance of any performer or artist), at any time, for any reason whatsoever, without any prior notice or compensation to You. You understand that the artists and/or lineup for the Festival may be changed and that such occurrence shall not, under any circumstances, entitle You to any claim whatsoever, including, but not limited to, a refund for Your Ticket.",
+    "l4": "If the Festival is canceled in whole, or in part, due to a Force Majeure Event, You will not be entitled to a refund. Notwithstanding the foregoing, the Company may issue, at the Company’s sole and absolute discretion, a partial or full refund of Your Ticket, by accounting for, among other considerations, the extent and nature of the cancellation.",
+    "l5": "By entering the Festival, You assume any and all risk and/or danger, known and unknown, foreseeable and unforeseeable, resulting from, or incidental to, the Festival, whether occurring prior to, during, or subsequent to, the Festival, including, but not limited to, any death, personal injury or loss, damage or liability whatsoever. You understand that Your use of Your Ticket is contingent upon Your voluntary assumption of the risk and danger that may result from, or be incidental to, Your presence at the Festival, whether occurring prior to, during, or after the Festival.",
+    "l6": "You acknowledge and understand that the Ticket is a revocable license to attend the Festival for which it was issued, which is subject to revocation and denial of admission without compensation for any reason, including, but not limited to, Your attempted or actual violation of any of the rules set forth herein, policy or regulations and for any other action taken by You in violation of any local, law, or that may endanger other ticketholders or the organizers.",
+    "l7": "To respect everyone's privacy, photography will not be allowed.",
+    "l8": "Re-entry will not be accepted without prior approval.",
+    "l9": "You acknowledge and agree not to violate any of the rules of Saudi Arabia and respect Islamic and cultural principles which means that you won’t violate them by bringing anything that can harm you or anyone inside which includes but not limited to weapons, illegal substances, recording devices.",
+    "l10": "By Entering the festival, you agree and consent to photography and videography being taken of you as an attendee and understand that it might be used for promotional material."
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": "What are the opening hours each day?",
+    "a1": "The festival is open daily from 5PM – 4AM. Please come early to give yourself enough time for parking and registration so you don’t miss any of the freaky goodness",
+    "q2": "Is there festival re-entry?",
+    "a2": "No, there is no re-entry. Once you leave the festival you cannot re-enter.",
+    "q3": "What is the minimum age?",
+    "a3": "We welcome all music lovers from 18 +",
+    "q4": "What Food & Beverages options will be available?",
+    "a4": "There will be a variety of F&B outlets and food trucks on-site. You are also welcome to bring your own food and beverages. Free Water Stations will be located throughout the grounds for you to use at your convenience. FOR SAFETY REASONS, GLASS BOTTLES ARE NOT ALLOWED",
+    "q5": "What is the anti-harassment policy?",
+    "a5": "This festival is for music lovers to express their love of music and have a great time. Any harassment will not be tolerated and our anti-harassment marshals will ask you to leave immediately."
+  }
+}

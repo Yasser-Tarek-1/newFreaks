@@ -1,0 +1,16 @@
+.about-freaking2-component .slider div {
+    overflow: hidden;
+}
+
+.about-freaking2-component .title {
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.about-freaking2-component .title h3 {
+    color: #fff;
+}
+
+.slider {
+    display: flex;
+}

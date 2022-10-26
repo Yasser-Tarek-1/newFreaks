@@ -1,0 +1,47 @@
+.clock-component {
+    display: flex;
+    width: 100%;
+    direction: ltr;
+    align-items: center;
+}
+
+.clock-component>div {
+    margin: 5px;
+    font-size: 45px;
+    font-weight: 700;
+    border-radius: 12px;
+    color: #fff;
+    font-family: stolzi;
+
+}
+
+.clock-component>div:nth-child(1) {
+    margin: 5px 0;
+}
+
+.clock-component>div:not(.separator) {
+    width: 21%;
+}
+
+.clock-component .clock-card {
+    color: #000 !important;
+    background-color: #fff;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+@media (max-width:400px) {
+    .clock-component .clock-card {
+        height: 50px;
+    }
+
+    .clock-component>div {
+        margin: 2px;
+
+    }
+}

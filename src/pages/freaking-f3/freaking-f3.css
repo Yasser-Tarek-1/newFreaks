@@ -1,0 +1,119 @@
+.fearking-f3-component .top-section {
+  padding-bottom: 120px;
+  background: url("../../assets/palm-half-01.svg");
+  background-size: cover;
+  /* background-position: 50% 50%; */
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .fearking-f3-component .top-section {
+    background-position: 50% 50%;
+  }
+}
+
+.fearking-f3-component .logo .logo-content {
+  width: 25%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fearking-f3-component .logo .logo-content {
+    padding-top: 85px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fearking-f3-component .top-section {
+    padding-bottom: 30px;
+  }
+}
+
+.fearking-f3-component .top-section .logo {
+  padding-top: 170px;
+  text-align: center;
+}
+
+.fearking-f3-component .top-section .logo {
+  width: 340px;
+  margin: auto;
+}
+
+.fearking-f3-component .top-section .about .row {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+  .fearking-f3-component .top-section .about .row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .fearking-f3-component .top-section .about .row {
+    width: 100%;
+  }
+}
+
+.fearking-f3-component .top-section .about .img {
+  width: 300px;
+  height: 400px;
+  background-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fearking-f3-component .top-section .about .row .col-md-6 {
+  margin: 0 20px;
+}
+
+.fearking-f3-component .top-section .about .row .title {
+  color: #fff;
+  font-size: 3rem;
+  font-family: stolzi;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.fearking-f3-component .top-section .about .row p {
+  color: #fff;
+  font-family: stolzi-light;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 720px) {
+  .fearking-f3-component .top-section .about .row .col-md-6 {
+    text-align: center;
+  }
+
+  .fearking-f3-component .top-section .about .row p {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+.fearking-f3-component .artist-words {
+  width: 80%;
+  margin: auto;
+}
+
+.fearking-f3-component .artist-words .title {
+  color: #fff;
+  font-size: 3rem;
+  font-family: stolzi;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.fearking-f3-component .artist-words .content_art {
+  margin-top: 50px;
+}

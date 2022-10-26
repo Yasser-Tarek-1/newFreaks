@@ -1,0 +1,307 @@
+.event-component {
+    font-family: "stolzi-light"
+}
+
+.event-component .grid-contents {
+    display: flex;
+    width: 100%;
+}
+
+.event-component .grid-contents .col_one {
+    background-color: #FFBF00;
+    border: 1px solid #fff;
+    width: 5%;
+}
+
+
+/*  */
+.parent {
+    width: 95%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 600px) {
+    .parent {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .col_two {
+        width: 100% !important;
+    }
+
+    .col_three {
+        width: 100% !important;
+    }
+}
+
+
+.event-component .grid-contents .col_three {
+    width: 20%;
+}
+
+.event-component .grid-contents .col_two {
+    width: 80%;
+}
+
+.event-component .grid-contents .col_one h3 {
+    display: flex;
+    height: 100%;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-component .grid-contents .col_one h3 span {
+    display: block;
+    transform: rotate(90deg);
+}
+
+
+.event-component .grid-contents .col_three {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.event-component .grid-contents .col_three .past-title {
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    height: 15%;
+    background-color: #7A47D8;
+
+
+}
+
+.event-component .grid-contents .col_three .event-info {
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    background-size: cover !important;
+    padding: 30px;
+    height: 42.5%;
+}
+
+.event-component .grid-contents .col_three .event-info .img-info {
+    text-align: center;
+}
+
+.event-component .grid-contents .col_three .event-info img {
+    width: 140px;
+    margin: auto;
+}
+
+
+.event-component .grid-contents .col_three .event-info h3 {
+    font-size: 20px;
+}
+
+
+.event-component .grid-contents .col_three .event-info .sub-text span {
+    font-size: 12px;
+}
+
+
+.event-component .grid-contents .col_three .event-info button {
+    margin-top: 12px;
+}
+
+
+.event-component .grid-contents .col_two {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-component .grid-contents .col_two .upcoming-title {
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    height: 15%;
+    background-color: #ED1971;
+
+}
+
+.event-component .grid-contents .col_two .upcoming-info {
+    display: flex;
+    height: 85%;
+    background-color: #fff;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .freaking {
+    background-color: #FB5607;
+    background: url(../../assets/events/event-freaking.jpg);
+    background-size: cover;
+    width: 65%;
+    padding: 50px;
+    border: 1px solid #fff;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .freaking div img {
+    margin: auto;
+    width: 300px;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .freaking .event-data h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .freaking .event-place {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .freaking .event-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .freaking .event-btns a {
+    display: block;
+    margin: 0 10px;
+    width: 100%;
+    padding: 12px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .event-component .grid-contents .col_two .upcoming-info .freaking .event-btns a {
+        margin: 0;
+        padding: 5px;
+    }
+}
+
+.event-component .grid-contents .col_two .upcoming-info .freaking .event-btns button {
+    margin: 0 10px;
+    width: 100%;
+    padding: 12px;
+    font-weight: 700;
+}
+
+
+
+
+/*  */
+.event-component .grid-contents .col_two .upcoming-info .xp {
+    background-color: #185EC6;
+    background: url(../../assets/events/event-xp.jpg);
+    background-position: 0% 0%;
+    background-size: cover;
+    padding: 50px;
+    border: 1px solid #fff;
+    width: 35%;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .xp div img {
+    margin: auto;
+    width: 300px;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .xp .event-data h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .xp .event-place {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.event-component .grid-contents .col_two .upcoming-info .xp .event-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 876px) {
+    .mobile-heading {
+        display: block;
+        background-color: #FFBF00;
+        border: 1px solid #fff;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        padding: 15px;
+        font-size: 40px;
+        font-family: stolzi;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .event-component .grid-contents .col_three {
+        width: 30%;
+    }
+
+    .event-component .grid-contents .col_two {
+        width: 70%;
+    }
+
+    .col_one {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .event-component .grid-contents .col_two .upcoming-info {
+        flex-direction: column;
+    }
+
+    .event-component .grid-contents .col_two .upcoming-title {
+        height: 10%;
+    }
+
+    .event-component .grid-contents .col_two .upcoming-info .freaking {
+        width: 100% !important;
+    }
+
+    .event-component .grid-contents .col_two .upcoming-info .xp {
+        width: 100% !important;
+    }
+}
+
+.btn-xp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 100%;
+    padding: 12px;
+    font-weight: 700;
+
+}
+
+@media screen and (max-width: 600px) {
+    .btn-xp {
+        width: 60%;
+
+    }
+}

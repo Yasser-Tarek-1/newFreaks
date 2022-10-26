@@ -1,0 +1,18 @@
+.sponsors_header {
+    min-height: 100vh;
+}
+
+.content {
+    padding: 20px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+}

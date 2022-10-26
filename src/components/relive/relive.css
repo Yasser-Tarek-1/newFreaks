@@ -1,0 +1,115 @@
+.relive-component {
+    padding: 50px 30px;
+}
+
+.relive-component .heading {
+    margin: 30px 0;
+}
+
+.relive-component .heading .title h3 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: stolzi;
+}
+
+.relive-component .content {
+    display: flex;
+    width: 100%;
+}
+
+.relive-component .content .video-container {
+    /* height: 360px; */
+    /* max-width: 640px; */
+    width: 100%;
+    position: relative;
+}
+
+/* @media (max-width:600px) {
+    .relive-component .content .video-container {
+        max-width: 350px !important;
+    } 
+} */
+
+.relive-component .content .video-container .play {
+    position: absolute;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    z-index: 55;
+}
+
+/* @media screen and (min-width: 1430px) {
+    .relive-component .content .video-container .play  {
+        left: 40%;
+    }
+  } */
+
+.relive-component .content .video-container .play img {
+    width: 80px;
+}
+
+@media (max-width:600px) {
+    .relive-component .content .video-container .play img {
+        width: 50px;
+    }
+}
+
+.relive-component .content .video-container div {
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relive-component .content .info {
+    margin: 0 20px;
+    color: #fff;
+
+}
+
+.relive-component .content .info p {
+    line-height: 1.7;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .relive-component .content .info {
+        margin: 0;
+    }
+}
+
+.relive-component .content .info .btn_none {
+    margin-left: auto;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 5px 30px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .relive-component .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .relive-component .content .video-container {
+        width: auto;
+    }
+
+    .relive-component .heading .title h3 {
+        text-align: center;
+    }
+
+    .relive-component .content .info .btn_none {
+        margin: auto;
+    }
+}
